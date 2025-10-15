@@ -2,8 +2,9 @@ const axios = require('axios');
 const ethers = require('ethers');
 const dotenv = require('dotenv');
 const readline = require('readline');
-const fs = require('fs');
 const { HttpsProxyAgent } = require('https-proxy-agent');
+const fs = require('fs');
+
 
 dotenv.config();
 
